@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tc</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <header>
+    <ul>
+      <li><a href="/speaks">トップページ</a></li>
+    </ul>
+  </header>
+
+  <body>
+    <%= yield %>
+  </body>
+  <footer>
+    <p>運営会社footer株式会社</p>
+    <p>© 2015-2016 Copyright footer Corp.</p>
+  </footer>
+</html>
